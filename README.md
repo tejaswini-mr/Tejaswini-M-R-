@@ -71,6 +71,9 @@ Aim:To determine the DC operating point, calculate the gain using transient and 
 
 
 # Design-2
+
+![Screenshot 2025-02-17 202320](https://github.com/user-attachments/assets/e216f2bb-7e24-436e-8c86-d88d0840e2d4)
+
    Aim : To find DC operating point find gain using transient analysis and AC analysis.
 
    Components : Mosfets M1 and M2 DC power supply.
@@ -97,21 +100,24 @@ Aim:To determine the DC operating point, calculate the gain using transient and 
    by adjusting the value of width and length of the mosfet we will get the current Id 
    As length is given 180nm by adjusting we will get width=0.61um this value of width and length is for both the mosfet
 
- 1.DC Analysis:
+
+   1.DC Analysis:
 
    
    To perform the DC analysis we have to select the {DC op pnt} in the edit simulation command and run the simulation
      the figure below is the values obtained from the DC analysis
+    
+   ![Screenshot 2025-02-17 200103](https://github.com/user-attachments/assets/e687b280-d032-4260-8452-b10457103dfc)
 
 
- 
    2. Transient Analysis
 
    
    To perform transient analysis we have to select the transient analysis in the edit simulation
    and give the stop time as 5ms and run the simulation .
    and the graph velow shows the transient response of the design.
-
+   
+   ![Screenshot 2025-02-17 200245](https://github.com/user-attachments/assets/05c9b471-494c-4c2e-9338-4be22166a47d)
 
 
    3. AC analysis
@@ -119,12 +125,14 @@ Aim:To determine the DC operating point, calculate the gain using transient and 
 
    TO perform AC analysis we have to select the ac analysis in the edit simulation command given the values as shown below
 
-
+   ![Screenshot 2025-02-17 184334](https://github.com/user-attachments/assets/b5b9b5b2-cc27-459c-87d9-27411895f901)
 
    the Graph shown is the ac analysis
 
 
-   
+   ![Screenshot 2025-02-17 200501](https://github.com/user-attachments/assets/4071bada-50cb-40a9-a838-694d6bf27e26)
+
+
    RESULTS:
 
   1.DC analysis
@@ -152,10 +160,10 @@ Aim:To determine the DC operating point, calculate the gain using transient and 
 
  the experiment validates that by choosing the correct mosfet dimensiions the drain current can be effectively regulated.
 
-The voltage transfer characteristics  helped to select the correct operating voltage  for saturation.
+  The voltage transfer characteristics  helped to select the correct operating voltage  for saturation.
 
  M1  has a stronger influence on ID, meaning its width significantly affects the output current  Increase in width increases Id  and vice-versa.
- M2 has a smaller influence on ID  meaning changes in its width result in only minor changes  in Id. Increase in width increases ID by small value and vice-versa.
+M2 has a smaller influence on ID  meaning changes in its width result in only minor changes  in Id. Increase in width increases ID by small value and vice-versa.
 
     
 
