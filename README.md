@@ -71,13 +71,96 @@ Aim:To determine the DC operating point, calculate the gain using transient and 
 
 
 # Design-2
-Aim: To find the DC operating point and hence find the gain using transient analysis and AC analysis
+   Aim : To find DC operating point find gain using transient analysis and AC analysis.
 
-Components: Mosfets(M1 and M2),DC power supply
+   Components : Mosfets M1 and M2 DC power supply.
 
-Procedure:
+   Procedure :
 
-Make the circuit connection
+   Make the circuit connections as show abovce.
+   Connect dc power supply to the gate terminal.
+   Connect the source terminal to the ground.
+   Set the input voltage by obtaining Vtc curve and Vdd to 1.8 V.
+
+   Using the Formula for Power
+
+   P=vi
+
+   We will get the Values of Id
+
+   Id= 27uA
+
+
+   we have to get the output current Id for the given circuits by adjusting the values of L & W of both the MOSFETS
+
+   
+   by adjusting the value of width and length of the mosfet we will get the current Id 
+   As length is given 180nm by adjusting we will get width=0.61um this value of width and length is for both the mosfet
+
+ 1.DC Analysis:
+
+   
+   To perform the DC analysis we have to select the {DC op pnt} in the edit simulation command and run the simulation
+     the figure below is the values obtained from the DC analysis
+
+
+ 
+   2. Transient Analysis
+
+   
+   To perform transient analysis we have to select the transient analysis in the edit simulation
+   and give the stop time as 5ms and run the simulation .
+   and the graph velow shows the transient response of the design.
+
+
+
+   3. AC analysis
+ 
+
+   TO perform AC analysis we have to select the ac analysis in the edit simulation command given the values as shown below
+
+
+
+   the Graph shown is the ac analysis
+
+
+   
+   RESULTS:
+
+  1.DC analysis
+  
+  
+  The calculated drain current Id aligns with the expected value based on power and voltage  where the value of Id = 27um 
+  By fine-tuning the channel dimensions  of both MOSFETs  the desired current was achieved L=180nm and W=0.61um for both mosfets
+  The circuit operates correctly within the selected DC parameters 
+
+  
+  2.Transient Analysis:
+
+  The transient response graph confirms that the circuit transitions smoothly over time.
+  The circuit responds effectively to input variations, indicating stable operation.
+
+  
+  3.AC Analysis:
+
+  The AC response graph confirms that the circuit maintains stability over the tested frequency range.
+  The circuit functions as expected under AC conditions.
+
+
+  INFERENCE:
+
+
+ the experiment validates that by choosing the correct mosfet dimensiions the drain current can be effectively regulated.
+
+The voltage transfer characteristics  helped to select the correct operating voltage  for saturation.
+
+ M1  has a stronger influence on ID, meaning its width significantly affects the output current  Increase in width increases Id  and vice-versa.
+ M2 has a smaller influence on ID  meaning changes in its width result in only minor changes  in Id. Increase in width increases ID by small value and vice-versa.
+
+    
+
+
+   
 
      
 
