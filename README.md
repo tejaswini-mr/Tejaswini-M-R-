@@ -1,9 +1,6 @@
 # Tejaswini-M-R-
-# Srujanjalojiltspice
-# LIC_exp
-linear integrated circuits
 # Experiment-1
-Question:the power given is P=100uW , perform DC analysis , Transient analysis and AC analysis for the given circuit and check what happens when the width is increased or decreased of each mosfet.
+Question:the power given is P=50uW , perform DC analysis , Transient analysis and AC analysis for the given circuit and check what happens when the width is increased or decreased of each mosfet.
 # Design-1:
 ![Screenshot 2025-02-17 213914](https://github.com/user-attachments/assets/3c6bf7a7-66ff-4d83-989d-fcc4213c9ba0)
 
@@ -27,44 +24,44 @@ Aim:To determine the DC operating point, calculate the gain using transient and 
    3.AC analysis:
 
    
-     Inorder to perform the ac analysis we need to select the ac analysis option in the edit.
+   Inorder to perform the ac analysis we need to select the ac analysis option in the edit.
      simulation command.
      
-     we should give the valuess as shown below
+   we should give the valuess as shown below
 
      
-     ![Screenshot 2025-02-17 214129](https://github.com/user-attachments/assets/26d0a053-9f57-4466-bd28-1cf7da98944f)
+   ![Screenshot 2025-02-17 214129](https://github.com/user-attachments/assets/26d0a053-9f57-4466-bd28-1cf7da98944f)
 
      
-     the graph shown is the ac analysis
+   the graph shown is the ac analysis
 
      
-     ![Screenshot 2025-02-17 214605](https://github.com/user-attachments/assets/e44973fe-fbf9-4e5a-9ae0-2110d13577b5)
+   ![Screenshot 2025-02-17 214605](https://github.com/user-attachments/assets/e44973fe-fbf9-4e5a-9ae0-2110d13577b5)
 
 
-     Result:
+ Result:
 
-     1.DC analysis:
+   1.DC analysis:
 
-     The calculated drain current aligns with the expected value based on power and voltage, 
+ The calculated drain current aligns with the expected value based on power and voltage, 
      with Id = 27uA. By adjusting the MOSFET's channel dimensions L = 180nm and W = 910um the 
      current requirement was successfully met. The circuit performs as expected under DC 
      conditions.
 
-     2.Transient Analysis:
+ 2.Transient Analysis:
 
-     The transient response graph shows the circuit's behavior over time. The response is 
+   The transient response graph shows the circuit's behavior over time. The response is 
      smooth, with no unexpected delays or distortions. The circuit reacts appropriately to 
      changes, indicating that it is stable and functions as expected.
 
-     3.AC Analysis
+   3.AC Analysis
 
-     The ac response graph confirms us that the circuit will remain stable at different 
+ The ac response graph confirms us that the circuit will remain stable at different 
      frequencies,the circuit mainitains its performance across the tested frequency range.
 
-    Inference
+ Inference
 
-    The experiment confirms that by selecting the appropriate MOSFET dimensions, the drain 
+   The experiment confirms that by selecting the appropriate MOSFET dimensions, the drain 
     current can be effectively controlled.The width of the MOSFET significantly impacts the 
     drain current, indicating that any variation in width directly affects the output current.
     Increasing the width results in a higher Id, while decreasing the width reduces Id.The 
