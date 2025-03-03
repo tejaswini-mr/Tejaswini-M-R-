@@ -8,9 +8,9 @@ Differential Amplifier:
 Differential amplifiers consist of two transistors M1 and M2, whose sources are joined together. If the two transistors are connected to different voltage inputs, then the current across M1 and M2 are different due to the gate voltage.
 If the voltage supply at the gate terminal is the same, then the current through M1 and M2 is also the same. This configuration is called "Common-Mode Input Voltage Differential Amplifier".
 Whatever may be the load resistor, the MOSFET M1 and M2 should not enter the Triode region. It should be verified that the MOSFETs remain in the Saturation Region for proper operation.
+
 ![image](https://github.com/user-attachments/assets/3c5dd8db-5be5-4177-aeb6-1e8dcb67f5c0)
 
-Procedure : Make the circuit connection as given above. connect the resister at the source terminal of both mosfet now calculate the value of Iss as power and vdd is given and calculate the Id1 and Id2 now calculate the Rss and Rd
 
 To find the all the values of resistor and current value. we need solve the given queston specification.
 P=3mA
