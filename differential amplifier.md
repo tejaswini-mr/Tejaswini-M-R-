@@ -10,7 +10,7 @@ If the voltage supply at the gate terminal is the same, then the current through
 Whatever may be the load resistor, the MOSFET M1 and M2 should not enter the Triode region. It should be verified that the MOSFETs remain in the Saturation Region for proper operation.
 ![image](https://github.com/user-attachments/assets/3c5dd8db-5be5-4177-aeb6-1e8dcb67f5c0)
 
-For all this circuit we need find out the AC analysis ,Transient analysis And Frequency Response.
+Procedure : Make the circuit connection as given above. connect the resister at the source terminal of both mosfet now calculate the value of Iss as power and vdd is given and calculate the Id1 and Id2 now calculate the Rss and Rd
 
 To find the all the values of resistor and current value. we need solve the given queston specification.
 P=3mA
