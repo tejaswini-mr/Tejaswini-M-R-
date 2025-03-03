@@ -11,6 +11,7 @@ Whatever may be the load resistor, the MOSFET M1 and M2 should not enter the Tri
 
 ![image](https://github.com/user-attachments/assets/3c5dd8db-5be5-4177-aeb6-1e8dcb67f5c0)
 
+Procedure : Make the circuit connection as given above. connect the resister at the source terminal of both mosfet now calculate the value of Iss as power and vdd is given and calculate the Id1 and Id2 now calculate the Rss and Rd
 
 To find the all the values of resistor and current value. we need solve the given queston specification.
 P=3mA
@@ -39,7 +40,6 @@ Components Required: MOSFET(M1,M2 and M3), Resistor,voltage supply's
 
 ![Screenshot 2025-03-02 211850](https://github.com/user-attachments/assets/93da95c8-e713-41e4-9a84-5bfd8340b150)
 
-Procedure : Make the circuit connection as given above. connect the resister at the source terminal of both mosfet now calculate the value of Iss as power and vdd is given and calculate the Id1 and Id2 now calculate the Rss and Rd
 
 Now to get the desired values of output voltage and current we have to vary the width and length of both the mosfet we got Length=180nm and width=1.810um
 
