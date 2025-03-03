@@ -8,6 +8,31 @@ Differential Amplifier:
 Differential amplifiers consist of two transistors M1 and M2, whose sources are joined together. If the two transistors are connected to different voltage inputs, then the current across M1 and M2 are different due to the gate voltage.
 If the voltage supply at the gate terminal is the same, then the current through M1 and M2 is also the same. This configuration is called "Common-Mode Input Voltage Differential Amplifier".
 Whatever may be the load resistor, the MOSFET M1 and M2 should not enter the Triode region. It should be verified that the MOSFETs remain in the Saturation Region for proper operation.
+![image](https://github.com/user-attachments/assets/3c5dd8db-5be5-4177-aeb6-1e8dcb67f5c0)
+
+For all this circuit we need find out the AC analysis ,Transient analysis And Frequency Response.
+
+To find the all the values of resistor and current value. we need solve the given queston specification.
+P=3mA
+
+Iss=P/VDD=3*10^3/3.3=0.909mA
+
+Is1=Is2=Iss/2=0.4545mA
+
+RD=VDD-Vocm/Iss=3.3-1.7/0.45*10^3=3.55kΩ
+
+Rss=Vp/Iss=0.5/0.909*10^3=0.555kΩ
+
+Finially by solving we get
+
+Iss=0.909mA
+
+I1=I2=0.4545mA
+
+RD=3.55kΩ
+
+Rss=0.555kΩ
+
 
 # Circuit-1
 Components Required: MOSFET(M1,M2 and M3), Resistor,voltage supply's
@@ -88,7 +113,8 @@ Now replace the R3 resister with a Mosfet : Given vp=0.4v and wkt vt=0.36v we go
 ![image](https://github.com/user-attachments/assets/7dca4dc5-eefa-4e28-a761-768a5f4dabf8)
 
 To get the output voltage and vp and current desired value we have to vary the width and length of the  mosfets
-![image](https://github.com/user-attachments/assets/40e17f48-948d-4503-9d80-054e436129e6) ![Screenshot 2025-03-02 235357](https://github.com/user-attachments/assets/028f12f7-7a55-4e24-b78d-42b621586501)
+
+![image](https://github.com/user-attachments/assets/40e17f48-948d-4503-9d80-054e436129e6)![Screenshot 2025-03-02 235357](https://github.com/user-attachments/assets/028f12f7-7a55-4e24-b78d-42b621586501)
 
 # DC analysis:
 ![image](https://github.com/user-attachments/assets/32cfbdb2-ff0c-4c97-a665-6730f90cce52)
@@ -101,6 +127,25 @@ give ac amplitude as 1 for one mosfet and 0 for other mosfet
 
 ![image](https://github.com/user-attachments/assets/4e00a952-9c8d-4cba-bcf4-9555b8251295)
 
+
+# INFERENCE:
+In this experiment, we seen the working principles of a differential amplifier and its types and configuration.
+
+There are three types of configurations were implemented: resistor , current source , and an NMOS . All the implements work on different ways that results into the cahnge in Voltage gain and stabillity of a mosfet.
+
+when resistor is connected it provides low CMRR,deduce gain voltage,but high bandwidth and also provide negative feedback
+
+But in the case of current source connection it is reciprocal of resistor connection because it has high gain volatge, high CMRR,but slight reduce in the bandwidth compared to the resistor connection.
+
+Highest gain volltage is drewn by the circuit of CMOSN connection
+
+By this we can say at what time/situation is required we can use that configuration.
+
+1.Need more Band width-Use Resistor configuration
+
+2.Need more Gain-Use CMOSN Configuration
+
+3.Need precise CMRR-Use current or CMOSN configuration
 
 
 
